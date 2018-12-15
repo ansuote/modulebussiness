@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">ModuleBussiness</string>
+
+
+    <string name="business_empty_data">暂时没有相关数据哦！</string>
+    <string name="business_network_error">网络好像有点问题，请检查网络设置哦！</string>
+    <string name="business_empty_content_layout">内容布局不能为空</string>
+
+    <!--刷新控件相关-->
+
+    <string name="refresh_header_pulldown">下拉可以刷新</string>
+    <string name="refresh_header_refreshing">正在刷新...</string>
+    <string name="refresh_header_loading">正在加载...</string>
+    <string name="refresh_header_release">释放立即刷新</string>
+    <string name="refresh_header_finish">刷新完成</string>
+    <string name="refresh_header_failed">刷新失败</string>
+    <string name="refresh_footer_pullup">上拉加载更多</string>
+    <string name="refresh_footer_release">释放立即加载</string>
+    <string name="refresh_footer_loading">正在加载...</string>
+    <string name="refresh_footer_finish">加载完成</string>
+    <string name="refresh_footer_failed">加载失败</string>
+    <string name="refresh_footer_allloaded">没有更多数据了</string>
+    <!--全部加载完成-->
+
+</resources>

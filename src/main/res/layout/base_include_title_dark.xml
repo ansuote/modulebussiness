@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--通用的title 此处的70dp只是方便预览，后面会动态更改该布局的高度和上内边距-->
+<RelativeLayout
+    android:id="@+id/ll_base_include_title_dark"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:background="@android:color/white">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/base_title_layout_height"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingBottom="12dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:paddingTop="12dp">
+
+        <ImageButton
+            android:id="@+id/btn_title_left"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@null"
+            android:paddingLeft="12dp"
+            android:paddingRight="12dp"
+            android:src="@drawable/base_title_left_btn_black"/>
+
+        <TextView
+            android:id="@+id/text_title_content"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@android:color/black"
+            android:textSize="18sp"
+            tools:text="这个标题"/>
+
+        <ImageButton
+            android:id="@+id/btn_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/base_title_left_btn_white"
+            android:visibility="invisible"/>
+
+        <TextView
+            android:id="@+id/tv_title_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            android:textSize="15sp"
+            tools:text="按钮"/>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/line_title"
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/base_line_color"
+        android:visibility="visible"/>
+
+</RelativeLayout>

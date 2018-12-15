@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FFF25656</color>
+    <color name="colorPrimaryDark">@android:color/transparent</color>
+    <color name="colorAccent">#FFF25656</color>
+    <color name="base_default_bg">#FFF5F5F5</color>
+    <color name="base_line_color">#FFDDDDDD</color>
+    <color name="base_divider_color">#FFDDDDDD</color>
+    <color name="base_text_hint_color">#FFCCCCCC</color>
+
+</resources>
