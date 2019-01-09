@@ -408,4 +408,14 @@ public abstract class BusinessMvpFragment<P extends BaseFragmentPresenter, C> ex
             mRefreshLayout.setEnableFooterFollowWhenLoadFinished(enable);
         }
     }
+
+    @Override
+    public void actionStart(Class<? extends Activity> cls, Object data, int requestCode) {
+
+    }
+
+    @Override
+    public void actionStart(Class<? extends Activity> cls, Object data) {
+
+    }
 }

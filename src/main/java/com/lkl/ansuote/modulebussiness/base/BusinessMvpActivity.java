@@ -555,4 +555,24 @@ public abstract class BusinessMvpActivity<V, P extends BasePresenter<V>, C> exte
 
     // ------------------------------ 刷新控件相关} ------------------------------
 
+
+    @Override
+    public void actionStart(Class<? extends Activity> cls, Object data) {
+
+    }
+
+    @Override
+    public void actionStart(Class<? extends Activity> cls, Object data, int requestCode) {
+
+    }
+
+    @Override
+    public void finishWithResult(Object data) {
+
+    }
+
+    @Override
+    public void finishWithResult(Object data, int resultCode) {
+
+    }
 }
