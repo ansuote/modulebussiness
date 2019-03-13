@@ -63,7 +63,8 @@ public abstract class BusinessMvpFragment<P extends BaseFragmentPresenter, C> ex
     @Override
     public void setUpView(View view) {
         if (getStatusBarStyle() == StatusBarStyle.TRANSLATE) {
-            BarUtils.setStatusBarAlpha(getActivity(), 0);
+            //该接口已经废弃，统一使用设置颜色接口    BarUtils.setNavBarColor();
+            //BarUtils.setStatusBarAlpha(getActivity(), 0);
             XViewUtil.setStatusBarTranslate(getActivity());
         }
 
