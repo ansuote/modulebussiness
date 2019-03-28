@@ -38,8 +38,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
+    api 'com.github.ansuote:HdqLibraryProject:v1.0.0'
 
-    api project(":hdqlibrary")
     api project(':modulemodel')
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
